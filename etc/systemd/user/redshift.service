@@ -1,0 +1,11 @@
+[Unit]
+Description=service that starts redshift
+DefaultDependencies=no
+
+[Service]
+ExecStart=/usr/bin/redshift -l 55.7:12.6 -t 5000:5000 -g 0.9 -m randr -v
+Type=simple
+
+[Install]
+Alias=redshift.service
+WantedBy=multi-user.target
