@@ -9,3 +9,4 @@ GenericName=Internet Messenger
 Categories=Network;
 Keywords=discord;vencord;electron;chat;
 Comment=Vesktop is a custom Discord App aiming to give you better performance and improve linux support. Vencord comes pre-installed
+#execute this to replace gay logo with a symbolic link to another images sudo find -name "vesktop.*" -exec ln -sf path to image  {} \;
